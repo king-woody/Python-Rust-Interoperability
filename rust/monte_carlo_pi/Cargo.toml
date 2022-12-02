@@ -1,0 +1,12 @@
+[package]
+name = "monte_carlo_pi"
+version = "1.0.0"
+authors = [""]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-format = "0.4.3"
+num_cpus = "1.14.0"
+rand = "0.8.5"

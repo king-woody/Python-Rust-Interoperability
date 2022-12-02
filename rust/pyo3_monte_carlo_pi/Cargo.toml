@@ -1,0 +1,17 @@
+[package]
+name = "pyo3_monte_carlo_pi"
+version = "1.0.0"
+authors = [""]
+edition = "2021"
+
+[lib]
+name = "montecarlopi"
+crate-type = ["cdylib"]
+
+[dependencies]
+monte_carlo_pi = {path = "../monte_carlo_pi"}
+
+[dependencies.pyo3]
+version = "0.17.3"
+features = ["extension-module"]
+
